@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+
+body{
+    background-image: url(imgcontacto4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+form{
+    width: 450px;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    border-radius: 7px;
+}
+
+a12 {
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 32px;
+    padding: 30%;
+   
+}
+
+input, textarea{
+    margin-top: 12px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: none;
+    background: rgba(255, 255, 255, 0.80)
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+#botonenviar{
+    background:  rgba(136,95,179,1.0);
+    color: white;
+    padding: 16px;
+}
+#botonenviar:hover{
+    cursor:pointer;
+}
+
+
+#gracias{
+    margin-top: 300px;
+    margin-bottom: 300px;
+    align-content: center;
+    text-align: center;
+    color: white;
+}
+
+@media (max-width:480px) {
+    form {
+        width: 100%;
+    }
+    
+    #gracias{
+        margin-top: 250px;
+        margin-bottom: 300px;
+        align-content: center;
+        text-align: center;
+        color: white;
+    }
+}
+
+h11 {
+    align-content: center;
+    text-align: center;
+    color:white;
+    font-size: 40px;
+}
