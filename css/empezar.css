@@ -24,6 +24,7 @@ body {
     padding-right: 25px;
     padding-top: 10px; 
     padding-bottom: 10px;
+    border-radius: 8px;
 }
 
 #banner-empezar p{
@@ -31,3 +32,26 @@ body {
     text-align: center;
     padding: 0px;
 }
+
+#correctamente {
+    color: #b7fd9b;
+}
+
+/*ATENCION*/
+
+#cuadro-atencion .contenedor {
+    position: relative;
+    padding: 20px;
+}
+
+#cuadro-atencion img {
+    float: left;
+    width: 65px;
+}
+
+.contenido-atencion {
+    text-align: center;
+    background-color: #ffead5;
+    padding: 20px;
+}
+
