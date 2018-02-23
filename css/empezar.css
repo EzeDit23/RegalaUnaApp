@@ -41,17 +41,33 @@ body {
 
 #cuadro-atencion .contenedor {
     position: relative;
-    padding: 20px;
+    padding-top: 20px;
 }
 
-#cuadro-atencion img {
+.imagen-atencion img{
     float: left;
     width: 65px;
+    margin-left: 2%;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    margin-right: 5%;
 }
 
 .contenido-atencion {
-    text-align: center;
     background-color: #ffead5;
-    padding: 20px;
+    border-radius: 10px;
+
+
 }
 
+.contenido-atencion h2 {
+    color: rgb(255, 140, 0);
+    text-align: center;
+    padding-top: 0.6%;
+}
+
+.contenido-atencion li {
+    text-align: left;
+    margin-top: 2%;
+    line-height: 0px;
+}
