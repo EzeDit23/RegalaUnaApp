@@ -1,6 +1,3 @@
-body {
-    background-color: rgb(100, 146, 91);
-}
 
 #banner-empezar {
     position: relative;
@@ -39,35 +36,77 @@ body {
 
 /*ATENCION*/
 
-#cuadro-atencion .contenedor {
+#cuadro-atencion {
     position: relative;
-    padding-top: 20px;
+    padding: 0%;
+    height: auto;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%; 
+    padding-bottom: 1%;
 }
 
-.imagen-atencion img{
+#cuadro-atencion img{
     float: left;
-    width: 65px;
-    margin-left: 2%;
-    margin-top: 4%;
-    margin-bottom: 2%;
-    margin-right: 5%;
+    padding-top: 1.4%;
+    width: 72px;
+    height: auto;
+
+
 }
 
-.contenido-atencion {
+#cuadro-atencion {
     background-color: #ffead5;
     border-radius: 10px;
-
-
 }
 
-.contenido-atencion h2 {
+#cuadro-atencion h2 {
     color: rgb(255, 140, 0);
     text-align: center;
-    padding-top: 0.6%;
+    margin-bottom: 1%;
+
 }
 
-.contenido-atencion li {
-    text-align: left;
-    margin-top: 2%;
-    line-height: 0px;
+.lista-atencion {
+    text-align: center;
+    padding-left: 5px;
+
+ 
+}
+
+form {
+    width: 100%;
+    background-color: yellow;
+}
+
+#t-contenedor {
+    width: 85%;
+    margin: auto;
+    background-color: violet;
+
+}
+
+.tut-titulo {
+    position: sticky;
+    width: 100%;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+
+#tutorial .t-num {
+    background-color: #8b61b3;
+    color:white;
+    width: 5%;
+    height: 50px;
+    text-align: center;
+
+}
+
+#tutorial .t-text {
+    background: #b9a0d1;
+    color: white;
+    width: 75%;
+    text-align: center;
 }
