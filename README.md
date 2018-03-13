@@ -1,4 +1,12 @@
 # RegalaUnaApp
-Mi sitio by Dituri M. Ezequiel
+ENTREGA WEBMASTER
 
-Prueba de UP
+Pautas Elegidas
+
+-Favicon del sitio web en todas las paginas
+-sitio web respnisve
+-etiquetas semanticas de HTML5
+
+PD: la pagina "empezar" no esta en su totalidad 100% temrinada, ya que depende de el desarrollo de la aplicacion primero, para definir el verdadero contenido de la pagina web, pero se armo un maquetado de refernecia.
+
+
